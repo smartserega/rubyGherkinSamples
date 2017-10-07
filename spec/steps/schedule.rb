@@ -5,7 +5,6 @@ module Tutu
   step 'Пользователь заходит на сайт "Туту-ру"' do
     @tutu_search = TutuSearch.new
     @tutu_search.load
-    binding.pry    
     @tutu_search.trains_chose.click
   end
 

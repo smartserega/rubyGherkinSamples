@@ -13,6 +13,5 @@ gem 'capybara'
 gem 'selenium-webdriver'
 gem 'chromedriver-helper'
 gem 'colorize'
-gem 'acceptance_testing', '0.2.1'
 gem 'turnip_formatter', '~>0.6.0.pre.beta.5', require: false
 gem 'net-sftp', '~> 2.1', '>= 2.1.2'
